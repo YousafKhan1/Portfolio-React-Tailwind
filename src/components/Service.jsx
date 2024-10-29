@@ -13,12 +13,12 @@ const services = [
   },
   {
     id: 3,
-    title: "Backend Development",
-    description: "Developing robust server-side logic and databases.",
+    title: "Markdown",
+    description: "A lightweight markup language for creating formatted text using plain syntax.",
   },
   {
     id: 4,
-    title: "Full-Stack Development",
+    title: "Data Analysis Excel",
     description: "Combining both frontend and backend development skills.",
   },
   {

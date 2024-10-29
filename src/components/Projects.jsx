@@ -12,8 +12,8 @@ const projects = [
   },
   {
     id: 2,
-    name: "Blog App",
-    technologies: "MERN Stack",
+    name: "Student First",
+    technologies: "Nextjs",
     image: bookMSImage,
     github: "https://github.com/YouafKhan1",
   },
