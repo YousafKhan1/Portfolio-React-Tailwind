@@ -1,28 +1,29 @@
 import React from "react";
-import employeeMSImage from "../assets/employee-ms.png";
-import bookMSImage from "../assets/admin-dashboard.png";
+import vetlepImage from "../assets/vetlepImage.png";
+import StudentImage from "../assets/studentImage.png";
+import collegeImage from "../assets/collegeImage.png"
 
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "Vetlep",
+    technologies: "Nextjs",
+    image: vetlepImage,
+    github: "https://www.vetlep.com/",
   },
   {
     id: 2,
     name: "Student First",
     technologies: "Nextjs",
-    image: bookMSImage,
-    github: "https://github.com/YouafKhan1",
+    image: StudentImage,
+    github: "https://studentfirst.vercel.app/",
   },
   {
     id: 3,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "Valdymas College",
+    technologies: "Nextjs",
+    image: collegeImage,
+    github: "https://valdymas-college.vercel.app/",
   },
 ];
 

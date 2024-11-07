@@ -18,7 +18,7 @@ const services = [
   },
   {
     id: 4,
-    title: "Data Analysis Excel",
+    title: "Supabase",
     description: "Combining both frontend and backend development skills.",
   },
   {
