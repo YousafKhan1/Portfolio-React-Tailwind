@@ -25,6 +25,27 @@ const projects = [
     image: collegeImage,
     github: "https://valdymas-college.vercel.app/",
   },
+  {
+    id: 4,
+    name: "Chronicles",
+    technologies: "React",
+    image: collegeImage,
+    github: "https://clcfreedomchronicles.com/",
+  },
+  {
+    id: 5,
+    name: "Github App",
+    technologies: "React",
+    image: collegeImage,
+    github: "https://exam-project-alt-school.netlify.app/",
+  },
+  {
+    id: 6,
+    name: "Interior Designer",
+    technologies: "React",
+    image: collegeImage,
+    github: "https://revampinterior.netlify.app/",
+  },
 ];
 
 const Projects = () => {
