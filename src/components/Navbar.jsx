@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 
 const Navbar = () => {
@@ -12,8 +13,8 @@ const Navbar = () => {
                 <a href="#project" className='hover:text-gray-400'>Projects</a>
                 <a href="#contact" className='hover:text-gray-400'>Contact</a>
             </div>
-            <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
-            transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Connect Me</button>
+            {/* <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
+            transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Connect Me</button> */}
         </div>
     </nav>
   )
