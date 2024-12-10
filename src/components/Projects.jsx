@@ -1,7 +1,11 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import vetlepImage from "../assets/vetlepImage.png";
 import StudentImage from "../assets/studentImage.png";
-import collegeImage from "../assets/collegeImage.png"
+import collegeImage from "../assets/collegeImage.png";
+import interior from "../assets/interior.png"
+import chronicles from "../assets/chronicles.png"
+import github from "../assets/github.png"
 
 const projects = [
   {
@@ -29,21 +33,21 @@ const projects = [
     id: 4,
     name: "Chronicles",
     technologies: "React",
-    image: collegeImage,
+    image: chronicles,
     github: "https://clcfreedomchronicles.com/",
   },
   {
     id: 5,
     name: "Github App",
     technologies: "React",
-    image: collegeImage,
+    image: github,
     github: "https://exam-project-alt-school.netlify.app/",
   },
   {
     id: 6,
     name: "Interior Designer",
     technologies: "React",
-    image: collegeImage,
+    image: interior,
     github: "https://revampinterior.netlify.app/",
   },
 ];

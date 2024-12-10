@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 
 const services = [
@@ -28,8 +29,8 @@ const services = [
   },
   {
     id: 6,
-    title: "Digital Marketing",
-    description: "Promote your business with our digital marketing team.",
+    title: "WordPress/Webflow",
+    description: "Promote your business with awesome design themes.",
   },
 ];
 const Service = () => {
