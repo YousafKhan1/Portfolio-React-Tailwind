@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import newImg from "../assets/newID.png";
+import deb from "../assets/debbi.png";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
           <img
-            src={newImg}
+            src={deb}
             alt=""
             className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
           />
