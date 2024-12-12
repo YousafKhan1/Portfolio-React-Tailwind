@@ -52,10 +52,6 @@ const Contact = () => {
             <FaPhone className="text-green-400" />
             <span>+2348165655608</span>
           </div>
-          <div className="flex justify-center items-center space-x-2">
-            <FaPhone className="text-green-400" />
-            <span>+2349161</span>
-          </div>
         </motion.div>
       </div>
     </div>
