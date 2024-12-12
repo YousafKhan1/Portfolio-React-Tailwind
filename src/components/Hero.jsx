@@ -13,7 +13,7 @@ const Hero = () => {
       />
       <h1 className="text-4xl font-bold">
         {" "}
-        I am{" "}
+        I'm{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
           Ishola Deborah Opeyemi
         </span>

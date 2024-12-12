@@ -13,7 +13,7 @@ const Footer = () => {
               Specializing in web and software development.
             </p>
           </div>
-          <div className="flex-1 w-full">
+          {/* <div className="flex-1 w-full">
             <form className="flex items-center justify-center">
               <input
                 type="email"
@@ -29,7 +29,7 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         <div
