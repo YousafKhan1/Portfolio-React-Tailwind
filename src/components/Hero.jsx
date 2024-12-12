@@ -4,7 +4,7 @@ import deb from "../assets/deb.png";
 
 const Hero = () => {
   return (
-    <div className="bg-black text-white text-center py-16">
+    <div className="bg-black text-white text-center py-16 relative z-10">
       <img
         src={deb}
         alt=""

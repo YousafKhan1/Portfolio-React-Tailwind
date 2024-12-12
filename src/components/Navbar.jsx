@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black text-white px-4 py-3 shadow-md">
+    <nav className="bg-black text-white px-4 py-3 shadow-md relative z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold">Debs</div>
         <button
