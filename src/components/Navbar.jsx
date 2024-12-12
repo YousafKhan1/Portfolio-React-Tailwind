@@ -2,11 +2,12 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-const Navbar = () => {
+const Navbar = ({ onMenuToggle }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    onMenuToggle(!isMenuOpen); // Notify the Hero component
   };
 
   const menuVariants = {

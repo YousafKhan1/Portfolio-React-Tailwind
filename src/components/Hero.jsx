@@ -1,10 +1,14 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React, { useState } from "react";
 import deb from "../assets/deb.png";
 
-const Hero = () => {
+const Hero = ({ isMenuOpen }) => {
   return (
-    <div className="bg-black text-white text-center py-16 relative z-10">
+    <div
+      className={`bg-black text-white text-center py-16 relative z-10 transition-transform duration-300 ${
+        isMenuOpen ? "translate-y-48" : "translate-y-0"
+      }`}
+    >
       <img
         src={deb}
         alt=""
