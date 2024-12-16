@@ -32,7 +32,7 @@ const Navbar = ({ onMenuToggle }) => {
             isMenuOpen ? "top-12" : "top-[-300px]"
           }`}
         >
-          {["Home", "About", "Service", "Contact"].map((link, index) => (
+          {["Home", "About", "Service", "Project", "Contact"].map((link, index) => (
             <motion.li
               key={index}
               className="py-2 lg:py-0 text-center lg:text-left"
