@@ -5,7 +5,7 @@ import StudentImage from "../../public/assets/studentImage.png";
 import collegeImage from "../../public/assets/collegeImage.png";
 import interior from "../../public/assets/interior.png";
 import chronicles from "../../public/assets/chronicles.png";
-import github from "../../public/assets/github.png";
+import github from "../../public/assets/github.png"
 
 
 const projects = [
@@ -59,28 +59,28 @@ const wordpressProjects = [
     id: 1,
     name: "Valdymas Intelligence",
     technologies: "WordPress, Elementor",
-    image: "../../public/assets/intelligence.png",
+    image: "/assets/intelligence.png",
     github: "https://valdymasintelligence.org/",
   },
   {
     id: 2,
     name: "ATK Fashion",
     technologies: "WordPress, WooCommerce",
-    image: "../../public/assets/fashion.png",
+    image: "/assets/fashion.png",
     github: "https://atkfhouse.com/",
   },
   {
     id: 3,
     name: "Valdymas Africa",
     technologies: "WordPress, LearnDash",
-    image: "../../public/assets/africa.png",
+    image: "/assets/africa.png",
     github: "https://valdymasafrica.org/",
   },
   {
     id: 4,
     name: "Transforming the Impossible",
     technologies: "WordPress, Divi",
-    image: "../../public/assets/transform.png",
+    image: "/assets/transform.png",
     github: "https://valdymasintelligence.org/books/",
   },
   {
