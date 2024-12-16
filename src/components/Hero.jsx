@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import deb from "../../public/assets/deb.png";
 
-// eslint-disable-next-line react/prop-types
+
 const Hero = ({ isMenuOpen }) => {
   return (
     <div
