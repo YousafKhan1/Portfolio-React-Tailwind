@@ -87,14 +87,14 @@ const wordpressProjects = [
     id: 5,
     name: "Deep Green",
     technologies: "WordPress, Custom Theme",
-    image: "../../public/assets/deepgreen.png",
+    image: "/assets/deepgreen.png",
     github: "https://example-education.com/",
   },
   {
     id: 6,
     name: "ATK",
     technologies: "WordPress, The Events Calendar",
-    image: "../../public/assets/atk.png",
+    image: "/assets/atk.png",
     github: "https://atkfhouse.com/",
   },
 ];
