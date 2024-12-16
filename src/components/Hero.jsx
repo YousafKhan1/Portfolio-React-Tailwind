@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import deb from "../assets/deb.png";
+import deb from "../../public/assets/deb.png";
 
+// eslint-disable-next-line react/prop-types
 const Hero = ({ isMenuOpen }) => {
   return (
     <div

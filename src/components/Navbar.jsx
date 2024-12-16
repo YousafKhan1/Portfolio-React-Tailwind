@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({ onMenuToggle }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
