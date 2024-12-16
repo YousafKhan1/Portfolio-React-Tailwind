@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaReact, FaWordpress, FaDatabase } from "react-icons/fa";
-import deb from "../../public/assets/debbi.png"
+import deb from "/public/assets/debbi.png"
 import { SiNextdotjs, SiTypescript } from "react-icons/si";
 
 const About = () => {
