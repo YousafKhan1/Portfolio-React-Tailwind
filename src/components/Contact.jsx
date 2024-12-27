@@ -10,20 +10,20 @@ const Contact = () => {
           <div className="flex-1">
             <h3 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r 
             from-green-400 to-blue-500 mb-4'>Let's Talk</h3>
-            <p>I'm open to discussing web development prjectgs or partnership opportunities.</p>
+            <p>"Excited to explore career growth opportunities and potential collaborations in Full Stack development."</p>
             <div className='mb-4 mt-8'>
                 <FaEnvelope className='inline-block text-green-400 mr-2'></FaEnvelope>
                 <a href="mailto:youremail@example.com" className='hover:underline'>
-                    youremail@exmple.com
+                    nikitatidke50@gmail.com
                 </a>
             </div>
             <div className='mb-4'>
                 <FaPhone className='inline-block text-green-400 mr-2'></FaPhone>
-                <span>+9828839922</span>
+                <span>(+91)987 432 1000</span>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-green-400 mr-2'></FaMapMarkedAlt>
-                <span>sreet, city, pronice, country</span>
+                <span>Nashik, Maharashtra</span>
             </div>
           </div>
           <div className='flex-1 w-full'>

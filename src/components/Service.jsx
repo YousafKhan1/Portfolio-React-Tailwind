@@ -3,33 +3,33 @@ import React from "react";
 const services = [
   {
     id: 1,
-    title: "Web Design",
-    description: "Creating visually appealing and user-friendly web designs.",
+    title: "Frontend Development",
+    description: "Designing interactive, responsive, and modern user interfaces that elevate the user experience.",
   },
   {
     id: 2,
-    title: "Frontend Development",
-    description: "Building responsive and interactive user interfaces.",
+    title: "Backend Development",
+    description: "Building solid server-side logic and advanced database systems that provide a strong foundation for your web applications.",
   },
   {
     id: 3,
-    title: "Backend Development",
-    description: "Developing robust server-side logic and databases.",
-  },
-  {
-    id: 4,
     title: "Full-Stack Development",
     description: "Combining both frontend and backend development skills.",
   },
   {
+    id: 4,
+    title: "Postman API Testing",
+    description: "Using Postman to execute detailed API tests, ensuring your API endpoints work seamlessly, and optimizing response and error handling.",
+  },
+  {
     id: 5,
-    title: "Content Writing",
-    description: "Writing content for your business and companies.",
+    title: "RESTful API Services",
+    description: "Connecting RESTful APIs to reliable databases to manage and retrieve data efficiently, powering your applications with real-time information.",
   },
   {
     id: 6,
-    title: "Digital Marketing",
-    description: "Promote your business with our digital marketing team.",
+    title: "Manual Testing",
+    description: "Manually testing the software carefully to find and fix problems, making sure it works as expected, while focusing on user experience, functionality, and overall quality.",
   },
 ];
 const Service = () => {
@@ -65,3 +65,4 @@ const Service = () => {
 };
 
 export default Service;
+  
