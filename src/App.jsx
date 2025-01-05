@@ -1,4 +1,5 @@
-
+// eslint-disable-next-line no-unused-vars
+import React, { useState } from "react";
 import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -9,11 +10,12 @@ import Projects from './components/Projects'
 import Service from './components/Service'
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div>
-        <Navbar />
-        <Hero />
+        <Navbar onMenuToggle={setIsMenuOpen} />
+        <Hero isMenuOpen={isMenuOpen} />
         <About />
         <Service />
         <Projects />
